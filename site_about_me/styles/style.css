@@ -1,0 +1,182 @@
+.main_container
+{
+    width: 1000px;
+    height: 1270px;
+    margin: 0 auto;
+}
+
+.photo
+{
+    float: left;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    background-image: url(../images/my-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.sidebar
+{
+    width: 330px;
+    float: left;
+    clear: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.list_title_1
+{
+    font-size: 24px;
+    line-height: 16px;
+    color: rgb(21,169,140);
+    font-family: "Open Sans";
+    margin: 0px;
+
+}
+
+.list_title_2
+{
+    font-size: 24px;
+    line-height: 16px;
+    color: rgb(21,169,140);
+    font-family: "Open Sans";
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+ul,
+ol
+{
+    width: 330px;
+    height: 130px;
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    margin-top: 25px;
+    margin-left: 19px;
+}
+
+
+.quote
+{
+    width: 570px;
+    height: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 150px;
+    background: url(../images/quotes.png) no-repeat 0px 0px;
+}
+
+.quote_text
+{
+    width: 500px;
+    height: 70px;
+    font-size: 28px;
+    color: rgb(132,132,132);
+    font-family: "Georgia";
+    font-style: italic;
+    margin-left: 57px;
+    margin-top: 70px;
+}
+
+.quote_autor
+{
+    font-size: 16px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.text_container
+{
+    float: right;
+    width: 570px;
+    margin: 50px 20px auto 60px; 
+    
+}
+
+.name_text
+{
+    font-size: 48px;
+    line-height: 32px;
+    font-weight: bold;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    margin-left: 3px;
+}
+
+.name_text:after
+{
+    content: "Javo Khabibullayev";
+    margin-top: 36px;
+}
+
+.blue_line
+{
+    margin-top: 36px;
+    width: 61px;
+    height: 7px;
+    background-color: #15a98b;
+    border-radius: 5px;
+}
+
+.text_about_me_container
+{
+    margin-top: 40px;        
+}
+
+.text_about_me
+{
+   width: 562px;
+   font-size: 19px;
+   line-height: 32px;
+   color: rgb(85,85,85);
+   font-family: "Georgia"; 
+}
+
+h2
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    margin-top: 50px;
+}
+
+.text_about_hobby
+{
+    width: 562px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    margin-top: 31px;
+    margin-bottom: 52px;
+}
+
+.write_me
+{
+    margin-top: 55px;
+    font-size: 19px;
+    line-height: 32px;
+    font-family: "Georgia";
+    color: rgb(21,169,139);
+    text-decoration-line: none;
+}
+
+.write_me:hover
+{
+    color: rgb(9,141,114);
+}
+
+.write_me span
+{
+    text-decoration-line: underline;
+}

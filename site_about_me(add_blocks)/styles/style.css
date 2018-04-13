@@ -1,0 +1,384 @@
+.content_container
+{
+    width: 960px;
+    margin-left: 480px;
+    margin-right: 480px;
+    margin-top: -205px;
+}
+
+.photo
+{
+    float: left;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    background-image: url(../images/my-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+}
+
+.sidebar
+{
+    width: 330px;
+    float: left;
+    clear: left;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.song_list_title
+{
+    font-size: 24px;
+    line-height: 16px;
+    color: rgb(21,169,140);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.movie_list_title
+{
+    font-size: 24px;
+    line-height: 16px;
+    color: rgb(21,169,140);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+ul,
+ol
+{
+    width: 305px;
+    height: 130px;
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+.quote
+{
+    width: 570px;
+    height: 206px;
+    float: right;
+    padding-top: 50px;
+}
+
+.quote_text
+{
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(255,255,255);
+    font-family: "Georgia";
+    font-style: italic;;
+    margin-top: -10px;
+}
+
+.quote_autor
+{
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(245,245,245);
+    font-family: "Open Sans";
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.text_container
+{
+    float: right;
+    width: 570px;
+    margin-top: -110px; 
+    
+}
+
+.name_text
+{
+    font-size: 48px;
+    line-height: 32px;
+    font-weight: bold;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 3px;
+}
+
+.name_text:after
+{
+    content: "Javo Khabibullayev";
+    margin-top: 36px;
+}
+
+.blue_line
+{
+    margin-top: 36px;
+    width: 61px;
+    height: 7px;
+    background-color: #15a98b;
+    border-radius: 5px;
+}
+
+.text_about_me_container
+{
+    margin-top: 45px;        
+}
+
+.text_about_me
+{
+   width: 562px;
+   font-size: 19px;
+   line-height: 32px;
+   color: rgb(85,85,85);
+   font-family: "Georgia"; 
+}
+
+.containe_about_hobby h2
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+}
+
+.text_about_hobby
+{
+    width: 562px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    margin-top: 31px;
+    margin-bottom: 52px;
+}
+
+.write_me
+{
+    margin-top: 55px;
+    font-size: 19px;
+    line-height: 32px;
+    font-family: "Georgia";
+    color: rgb(21,169,139);
+    text-decoration-line: none;
+}
+
+.write_me:hover
+{
+    color: rgb(9,141,114);
+}
+
+.write_me span
+{
+    text-decoration-line: underline;
+}
+
+.background
+{
+    width: 1920px;
+    height: 400px;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.5) inset;
+}
+
+.about_me_button,
+.my_hobby_button,
+.favourite_movies_button
+{
+    height: 50px;
+    float: left;
+}
+
+.about_me_button:hover,
+.my_hobby_button:hover,
+.favourite_movies_button:hover
+{ 
+    background-color: rgb(21, 169, 140);
+}
+
+.about_me_button a,
+.my_hobby_button a,
+.favourite_movies_button a
+{
+    height: 50px;
+    font-size: 19px;
+    color: rgb(51,51,51);
+    font-family: "Georgia";
+    line-height: 250%;
+    text-decoration-line: none;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about_me_button a:hover,
+.my_hobby_button a:hover,
+.favourite_movies_button a:hover
+{
+    filter: brightness(100);
+}
+
+.icon_about_me,
+.icon_my_hobby,
+.icon_movie
+{
+    margin-right: 8px;    
+}
+
+nav
+{
+    width: 900px;
+    height: 50px;
+    margin-left: 480px;
+}
+
+.about_movie_container
+{
+    width: 1200px;
+    float: left;
+    margin-left: 360px;
+    margin-top: 100px;
+}
+
+.pianist_movie_image
+{
+    width: 286px;
+    height: 191px;
+    border-radius: 5px;
+    background-image: url(../images/pianist.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.shoushenk_movie_image
+{
+    width: 285px;
+    height: 191px;
+    border-radius: 5px;
+    background-image: url(../images/pobeg-iz-shoushenka.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.antropoid_movie_image
+{
+    width: 284px;
+    height: 191px;
+    border-radius: 5px;
+    background-image: url(../images/antropoid.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.yarost_movie_image
+{
+    width: 285px;
+    height: 191px;
+    border-radius: 5px;
+    background-image: url(../images/yarost.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.about_movie_container h2
+{
+    font-size: 36px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+}
+
+.movie_name
+{
+    font-size: 22px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pianist_movie_block
+{
+    width: 286px;
+    float: left;
+}
+
+.shoushenk_movie_block
+{
+    width: 285px;
+    float: left;
+    margin-left: 20px;
+}
+
+.antropoid_movie_block
+{
+    width: 284px;
+    float: left;
+    margin-left: 20px;
+}
+
+.yarost_movie_block
+{
+    width: 285px;
+    float: left;
+    margin-left: 20px;
+}
+
+.text_about_movie
+{
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+}
+
+.all_movies_button
+{
+    float: left;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 480px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.all_movies_button a
+{
+    background-color: #15a98b;
+    display: block;
+    font-size: 19px;
+    color: rgb(245,245,245);
+    font-family: "Georgia";
+    text-align: center;
+    line-height: 250%;
+    text-decoration-line: none;
+    border-radius: 5px;
+}
+
+.all_movies_button a:hover
+{
+   background-color: #098d71;
+}
+
+.footer
+{
+    width: 1920px;
+    height: 70px;
+    clear: both;
+    background-color: #f5f5f5;
+}
+
+footer p
+{
+    font-size: 16px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    text-align: center;
+    line-height: 450%;    
+}
